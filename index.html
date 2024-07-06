@@ -12,9 +12,9 @@
         <div class="conteudo">
             <h1>Jokenpô</h1>
             <div class="botoes">
-                <button class="pedra">&#x1F44A;</button>
-                <button class="papel">&#x270B;</button>
-                <button class="tesoura">&#x270C;</button>
+                <button class="pedra" onclick="escolhaUsuario('pedra')">&#x1F44A;</button>
+                <button class="papel" onclick="escolhaUsuario('papel')">&#x270B;</button>
+                <button class="tesoura" onclick="escolhaUsuario('tesoura')">&#x270C;</button>
             </div>
             <div class="resultados">
                 <p class="resultado"></p>
@@ -23,5 +23,7 @@
             </div>
         </div>
     </div>
+
+    <script src="./main.js"></script>
 </body>
 </html>
